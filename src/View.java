@@ -6,32 +6,88 @@ import javax.swing.JPanel;
 import java.awt.Dimension;
 
 public class View extends JPanel{
+	/**
+	 * The frame used to display the game
+	 */
 	JFrame frame;
+	/**
+	 * The panel that will be drawn on to display the game
+	 */
 	DrawPanel drawPanel;
+	/**
+	 * Width of the frame to display the game
+	 */
 	int frameWidth;
+	/**
+	 * Height of the frame to dislpay the game
+	 */
 	int frameHeight;
+	/**
+	 * Image for the background
+	 */
 	BufferedImage background;
 	
+	/**
+	 * Will update the game display based on changes to different game components.
+	 * 
+	 * @param bird The bird the user controls
+	 * @param collidables The list of collidable objects on screen
+	 * @param miniMap The MiniMap that displays progress
+	 */
 	void updateView(Bird bird, List<Collidable>collidables,MiniMap miniMap) {}
 	
+	/**
+	 * Creates an image to be displayed
+	 */
 	void createImage() {}
 	
+	/**
+	 * Draws an image onto the frame
+	 */
 	void drawImage() {}
 	
+	/**
+	 * Displays a quiz question that will need to be answered by the player to progress
+	 */
 	void displayQuiz() {}
 	
+	/**
+	 * Handles the animation for the bird landing in the nest when the player reaches
+	 * the end of the game
+	 */
 	void nestAnimation() {}
 	
+	/**
+	 * The player selects whehter it wants to play as the Osprey or the Nothern Harrier.
+	 * 
+	 * @return An int representing the bird chosen. 0 = Osprey, 1 = Northern Harrier
+	 */
 	int selectBird() {return 0;}
 	
+	/**
+	 * Updates the display of the bird
+	 */
 	void updateBird() {}
 	
-	void updateCollidables() {}
+	/**
+	 * Updates the display of the bird
+	 * 
+	 * @param bird the bird controlled by the player
+	 */
+	void updateCollidables(Bird bird) {}
 	
-	void updateMiniMap() {}
+	/**
+	 * Updates the display of the minimap based on game progress
+	 * 
+	 * @param miniMap The minimap to be updated and displayed
+	 */
+	void updateMiniMap(MiniMap miniMap) {}
 	
+	/**
+	 * update the background based on how far the player has traveled.
+	 */
 	void updateBackground() {}
-	
+
 	@SuppressWarnings("serial")
 	private class DrawPanel extends JPanel {
 		protected void paintComponent(Graphics g) {
