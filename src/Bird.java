@@ -1,8 +1,8 @@
 
 public class Bird extends GameElement{
-	int flyingSpeed;
-	boolean poweredUp;
-	boolean isStunned;
+	private int flyingSpeed;
+	private boolean poweredUp;
+	private boolean isStunned;
 	
 	void powerUp() {}
 }

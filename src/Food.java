@@ -1,7 +1,7 @@
 
 public class Food extends GameElement implements Collidable{
-	int staminaValue;
-	boolean isSpecialFood;
+	private int staminaValue;
+	private boolean isSpecialFood;
 	
 	void eaten() {}
 	

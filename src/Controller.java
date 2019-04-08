@@ -12,19 +12,19 @@ public class Controller implements KeyListener{
 	/**
 	 * The view for the game
 	 */
-	View view;
+	private View view;
 	/**
 	 * The model for the game
 	 */
-	Model model;
+	private Model model;
 	/**
 	 * A button for the user to click
 	 */
-	JButton button;
+	private JButton button;
 	/**
 	 * Stores the key inputs by the player
 	 */
-	KeyEvent keyInputs;
+	private KeyEvent keyInputs;
 	
 	/**
 	 * Starts the game play. Will then prompt user to choose a bird to play as.

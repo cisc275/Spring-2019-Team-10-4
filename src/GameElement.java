@@ -1,10 +1,10 @@
 
 public class GameElement {
-	int xloc;
-	int yloc;
-	String spriteFile;
-	int xSpeed;
-	int ySpeed;
+	private int xloc;
+	private int yloc;
+	private String spriteFile;
+	private int xSpeed;
+	private int ySpeed;
 	
 	void updatePosition() {}
 }

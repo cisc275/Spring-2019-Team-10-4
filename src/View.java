@@ -16,23 +16,23 @@ public class View extends JPanel{
 	/**
 	 * The frame used to display the game
 	 */
-	JFrame frame;
+	private JFrame frame;
 	/**
 	 * The panel that will be drawn on to display the game
 	 */
-	DrawPanel drawPanel;
+	private DrawPanel drawPanel;
 	/**
 	 * Width of the frame to display the game
 	 */
-	int frameWidth;
+	private int frameWidth;
 	/**
 	 * Height of the frame to dislpay the game
 	 */
-	int frameHeight;
+	private int frameHeight;
 	/**
 	 * Image for the background
 	 */
-	BufferedImage background;
+	private BufferedImage background;
 	
 	/**
 	 * Will update the game display based on changes to different game components.

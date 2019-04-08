@@ -11,39 +11,39 @@ public class Model {
 	/**
 	 * The Bird the player will control
 	 */
-	Bird bird;
+	private Bird bird;
 	/**
 	 * A list containing all Collidable objects that are currently on the screen
 	 */
-	List<Collidable>onScreenCollidables;
+	private List<Collidable>onScreenCollidables;
 	/**
 	 * The distance currently traveled
 	 */
-	int distance;
+	private int distance;
 	/**
 	 * The total distance needed to be traveled
 	 */
-	int endDistance;
+	private int endDistance;
 	/**
 	 * The MiniMap that will update as the game progresses
 	 */
-	MiniMap miniMap;
+	private MiniMap miniMap;
 	/**
 	 * The current score for the game
 	 */
-	int points;
+	private int points;
 	/**
 	 * Stores whether the bird is in a powerup state
 	 */
-	boolean birdMode;
+	private boolean birdMode;
 	/**
 	 * Stores whether there is currently a quiz
 	 */
-	boolean quizMode;
+	private boolean quizMode;
 	/**
 	 * A list of all the different potential quiz questions
 	 */
-	List<QuizQuestion>quizQuestions;
+	private List<QuizQuestion>quizQuestions;
 	
 	/**
 	 * Used to update the current status and positions of the different game components.

@@ -1,6 +1,6 @@
 
 public class MiniMap extends GameElement{
-	int mapXLoc;
-	int mapYLoc;
-	String mapSpriteFile;
+	private int mapXLoc;
+	private int mapYLoc;
+	private String mapSpriteFile;
 }
