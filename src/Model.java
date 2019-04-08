@@ -1,5 +1,12 @@
 import java.util.*;
 
+/**
+ * Contains the different componenets of the bird game. As the game updates, 
+ * this handles the movement of elements and their current states.
+ * 
+ * @author 10-4
+ *
+ */
 public class Model {
 	/**
 	 * The Bird the player will control

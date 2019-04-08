@@ -5,6 +5,13 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 
+/**
+ * Handles the visual component of the game. Changes the positions of objects
+ * as the game progresses and according to player input.
+ * 
+ * @author 10-4
+ *
+ */
 public class View extends JPanel{
 	/**
 	 * The frame used to display the game

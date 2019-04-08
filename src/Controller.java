@@ -1,6 +1,13 @@
 import java.awt.event.*;
 import javax.swing.JButton;
 
+/**
+ * Handles the flow of the game and passes information between the model and view.
+ * Responsible for updating the game as it progresses.
+ * 
+ * @author 10-4
+ *
+ */
 public class Controller implements KeyListener{
 	/**
 	 * The view for the game

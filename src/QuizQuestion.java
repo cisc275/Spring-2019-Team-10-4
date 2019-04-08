@@ -1,4 +1,12 @@
 import java.util.*;
+
+/**
+ * Represents a quiz question that will be prompted throughout the game.
+ * There are multiple questions.
+ * 
+ * @author 10-4
+ *
+ */
 public class QuizQuestion {
 	/**
 	 * An int that stores the index of the correct answer
